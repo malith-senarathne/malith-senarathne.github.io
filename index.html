@@ -1,28 +1,205 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Malith Senarathne</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dr. Malith Senarathne</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(135deg,#001f3f,#004d5a);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    color:white;
+}
+
+.container{
+    width:100%;
+    max-width:450px;
+    text-align:center;
+    padding:35px 25px;
+    background:rgba(255,255,255,0.12);
+    backdrop-filter:blur(15px);
+    border-radius:30px;
+    box-shadow:0 20px 50px rgba(0,0,0,0.3);
+    animation:fadeIn 1s ease;
+}
+
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+
+.profile{
+    width:130px;
+    height:130px;
+    margin:auto;
+    border-radius:50%;
+    background:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:55px;
+    border:5px solid #d4af37;
+    box-shadow:0 0 25px rgba(212,175,55,0.7);
+}
+
+
+h1{
+    margin-top:20px;
+    font-size:28px;
+}
+
+.subtitle{
+    margin-top:10px;
+    color:#d9ffff;
+    font-size:16px;
+}
+
+
+.buttons{
+    margin-top:30px;
+}
+
+
+.btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:12px;
+    margin:15px 0;
+    padding:16px;
+    border-radius:50px;
+    text-decoration:none;
+    color:white;
+    background:rgba(255,255,255,0.15);
+    border:1px solid rgba(255,255,255,0.25);
+    font-size:17px;
+    font-weight:600;
+    box-shadow:0 10px 25px rgba(0,0,0,0.25);
+    transition:0.3s;
+}
+
+
+.btn:hover{
+    transform:translateY(-5px) scale(1.03);
+    background:#008c95;
+    box-shadow:0 15px 35px rgba(0,0,0,0.4);
+}
+
+
+.gold{
+    border:2px solid #d4af37;
+}
+
+
+footer{
+    margin-top:25px;
+    font-size:13px;
+    opacity:0.8;
+}
+
+</style>
+
 </head>
 
-<body style="font-family:Arial; text-align:center; margin-top:80px;">
 
-    <h1>👋 Welcome to Dr. Malith's Website</h1>
+<body>
 
-    <h2>Dr. Malith Senarathne</h2>
 
-    <p>Medical Officer | Sri Lanka</p>
+<div class="container">
 
-    <br>
 
-    <a href="https://facebook.com">Facebook</a>
+<div class="profile">
+👨‍⚕️
+</div>
 
-    <br><br>
 
-    <a href="https://youtube.com">YouTube</a>
+<h1>👋 Welcome to Dr. Malith's Website</h1>
 
-    <br><br>
+<p class="subtitle">
+Medical Doctor | Healthcare | Education | Wellness
+</p>
 
-    <a href="https://tiktok.com">TikTok</a>
+
+<div class="buttons">
+
+
+<a class="btn gold" href="#">
+👨‍⚕️ About Me
+</a>
+
+
+<a class="btn" href="#">
+📚 Medical Articles
+</a>
+
+
+<a class="btn" href="#">
+📅 Book an Appointment
+</a>
+
+
+<a class="btn" href="#">
+🏥 My Clinic
+</a>
+
+
+<a class="btn" href="#">
+📘 Facebook
+</a>
+
+
+<a class="btn" href="#">
+📸 Instagram
+</a>
+
+
+<a class="btn" href="#">
+🎵 TikTok
+</a>
+
+
+<a class="btn" href="#">
+💼 LinkedIn
+</a>
+
+
+<a class="btn" href="#">
+📞 Contact Me
+</a>
+
+
+</div>
+
+
+<footer>
+© 2026 Dr. Malith Senarathne
+</footer>
+
+
+</div>
+
 
 </body>
 </html>
