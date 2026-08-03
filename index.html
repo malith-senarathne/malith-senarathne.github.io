@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -35,8 +35,8 @@ body{
     border:1px solid rgba(255,255,255,0.15);
     border-radius:30px;
     box-shadow:0 20px 50px rgba(0,0,0,0.5);
+    animation:fadeIn 1s ease;
 }
-
 
 @keyframes fadeIn{
     from{
@@ -49,7 +49,6 @@ body{
     }
 }
 
-
 .profile{
     width:130px;
     height:130px;
@@ -61,7 +60,6 @@ body{
     margin:0 auto;
 }
 
-
 h1{
     margin-top:20px;
     font-size:28px;
@@ -69,24 +67,13 @@ h1{
 
 .subtitle{
     margin-top:10px;
-    color:#d9ffff;
+    color:#dddddd;
     font-size:16px;
 }
 
-
-.btn{
-    background:rgba(255,255,255,0.10);
-    border:1px solid rgba(255,255,255,0.20);
-    color:white;
+.buttons{
+    margin-top:30px;
 }
-
-.btn:hover{
-    transform:translateY(-5px) scale(1.03);
-    background:#000000;
-    border:1px solid #d4af37;
-    box-shadow:0 15px 35px rgba(0,0,0,0.6);
-}
-
 
 .btn{
     display:flex;
@@ -98,26 +85,26 @@ h1{
     border-radius:50px;
     text-decoration:none;
     color:white;
-    background:rgba(255,255,255,0.15);
-    border:1px solid rgba(255,255,255,0.25);
+    background:rgba(255,255,255,0.10);
+    border:1px solid rgba(255,255,255,0.20);
     font-size:17px;
     font-weight:600;
     box-shadow:0 10px 25px rgba(0,0,0,0.25);
-    transition:0.3s;
+    transition:all .3s ease;
+    -webkit-tap-highlight-color:transparent;
 }
 
-
-.btn:hover{
+.btn:hover,
+.btn:active{
     transform:translateY(-5px) scale(1.03);
-    background:#008c95;
-    box-shadow:0 15px 35px rgba(0,0,0,0.4);
+    background:#000000;
+    border:1px solid #d4af37;
+    box-shadow:0 15px 35px rgba(0,0,0,0.7);
 }
-
 
 .gold{
     border:2px solid #d4af37;
 }
-
 
 footer{
     margin-top:25px;
@@ -129,15 +116,11 @@ footer{
 
 </head>
 
-
 <body>
-
 
 <div class="container">
 
-
 <img src="profile.jpg" alt="Dr. Malith Senarathne" class="profile">
-
 
 <h1>👋 Welcome to Dr. Malith's Website</h1>
 
@@ -145,65 +128,51 @@ footer{
 Medical Doctor | Healthcare | Education | Wellness
 </p>
 
-
 <div class="buttons">
-
 
 <a class="btn gold" href="#">
 👨‍⚕️ About Me
 </a>
 
-
 <a class="btn" href="#">
 📚 Medical Articles
 </a>
-
 
 <a class="btn" href="#">
 📅 Book an Appointment
 </a>
 
-
 <a class="btn" href="#">
 🏥 My Clinic
 </a>
-
 
 <a class="btn" href="#">
 📘 Facebook
 </a>
 
-
 <a class="btn" href="#">
 📸 Instagram
 </a>
-
 
 <a class="btn" href="#">
 🎵 TikTok
 </a>
 
-
 <a class="btn" href="#">
 💼 LinkedIn
 </a>
-
 
 <a class="btn" href="#">
 📞 Contact Me
 </a>
 
-
 </div>
-
 
 <footer>
 © 2026 Dr. Malith Senarathne
 </footer>
 
-
 </div>
 
-
 </body>
-</html>
+</html>  
